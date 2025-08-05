@@ -1,0 +1,107 @@
+# PIBG Digital System - Project Tracker
+
+Complete project tracker for PIBG Management System development with milestone-based payment tracking.
+
+## 📋 Project Overview
+
+- **Client**: HH PixelMind Sdn Bhd
+- **Vendor**: INMA Tech Sdn Bhd
+- **Total Budget**: RM 48,500
+- **Timeline**: 21 Jul 2025 - 31 Oct 2025 (19 Weeks)
+- **Phases**: 6 development phases with milestone payments
+
+## 🎯 Features
+
+- ✅ **Task Progress Tracking** - Individual task progress with percentage
+- ✅ **Milestone Auto-Calculation** - Automatic milestone progress based on phase tasks
+- ✅ **Payment Tracking** - Track claimable amounts based on completed milestones
+- ✅ **Export Functionality** - Export progress to CSV/Excel
+- ✅ **Responsive Design** - Mobile-friendly interface
+- ✅ **Real-time Updates** - Summary updates automatically
+
+## 💰 Payment Structure
+
+| Milestone | Amount | Percentage | Description |
+|-----------|--------|------------|-------------|
+| M1 | RM 9,700 | 20% | URS Completion (Mobilization) |
+| M2 | RM 7,760 | 16% | Kewangan Module |
+| M3 | RM 7,760 | 16% | Projek & Login Module |
+| M4 | RM 7,760 | 16% | CRM Module |
+| M5 | RM 7,760 | 16% | Pembayaran Module |
+| M6 | RM 7,760 | 16% | Project Completion |
+
+## 📁 File Structure
+
+```
+pibg-project-tracker/
+├── index.html          # Main tracker interface
+├── README.md           # This file
+├── css/
+│   └── styles.css      # Separated CSS styles
+├── js/
+│   └── tracker.js      # JavaScript functionality
+└── assets/
+    └── screenshots/    # Interface screenshots
+```
+
+## 🚀 How to Use
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/yourusername/pibg-project-tracker.git
+   cd pibg-project-tracker
+   ```
+
+2. **Open in Browser**
+   ```bash
+   # Simply open index.html in your browser
+   open index.html
+   ```
+
+3. **Update Progress**
+   - Fill in progress percentage (0-100) for each task
+   - Select status (Not Started, In Progress, Completed)
+   - Milestone progress will auto-calculate
+
+4. **Export Data**
+   - Click "Export to Excel" to download CSV file
+   - Use for invoicing and progress reporting
+
+## 🛠 Technical Details
+
+- **Framework**: Vanilla HTML/CSS/JavaScript
+- **Responsive**: Mobile-first design
+- **Browser Support**: Modern browsers (Chrome, Firefox, Safari, Edge)
+- **Dependencies**: None (no external libraries)
+
+## 📊 Milestone Calculation Logic
+
+Milestone progress = Average progress of all tasks in that phase
+- **Phase 1** (M1): Tasks 1-2 average
+- **Phase 2** (M2): Tasks 3-6 average
+- **Phase 3** (M3): Tasks 7-10 average
+- **Phase 4** (M4): Tasks 11-14 average
+- **Phase 5** (M5): Tasks 15-17 average
+- **Phase 6** (M6): Tasks 18-19 average
+
+## 🔧 Customization
+
+To modify for other projects:
+1. Update task list in `index.html`
+2. Adjust milestone amounts in `js/tracker.js`
+3. Modify phase task ranges in calculation logic
+4. Update project details in header
+
+## 📝 License
+
+This project is for internal use by INMA Tech Sdn Bhd for the PIBG Management System project.
+
+## 🤝 Contributing
+
+Internal project - contact development team for modifications.
+
+---
+
+**Last Updated**: December 2024  
+**Version**: 1.0  
+**Status**: Active Development
